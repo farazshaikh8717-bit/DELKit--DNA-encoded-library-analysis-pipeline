@@ -1,0 +1,42 @@
+# Large data files - download separately via SRA toolkit
+SRR32132802*.fastq
+SRR32132803*.fastq
+SRR32132804*.fastq
+SRR32132805*.fastq
+SRR32132806*.fastq
+SRR32132807*.fastq
+*.fastq.gz
+*.sra
+
+# Generated outputs (reproducible from notebook)
+outputs/
+models/
+figures/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+.env
+venv/
+env/
+.venv/
+*.conda
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large intermediate files
+data/prjna1215981_counts.csv
+data/enrichment.csv

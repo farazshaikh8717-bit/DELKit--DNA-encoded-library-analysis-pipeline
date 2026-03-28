@@ -1,0 +1,13 @@
+tag_id,bb_id,bb_name,smiles
+AACTGCAA,BB3_001,4-Fluorobenzamide,O=C(N)c1ccc(F)cc1
+TTGCATCC,BB3_002,3-Chloropyridine-amide,O=C(N)c1cnccc1Cl
+GCTATAGCC,BB3_003,4-CF3-benzamide,O=C(N)c1ccc(C(F)(F)F)cc1
+CGATCATT,BB3_004,Nicotinamide,O=C(N)c1cccnc1
+TGATCAGG,BB3_005,4-Methoxybenzamide,O=C(N)c1ccc(OC)cc1
+GCAATCGG,BB3_006,2-Naphthylamide,O=C(N)c1ccc2ccccc2c1
+ATCGGCTT,BB3_007,Phenylsulfonamide,O=S(=O)(N)c1ccccc1
+TAGCATGCC,BB3_008,Benzothiazole-amide,O=C(N)c1nc2ccccc2s1
+CGTAGCAA,BB3_009,Pyridazine-amide,O=C(N)c1cccnn1
+GATCGTAA,BB3_010,Cyclopropane-carboxamide,O=C(N)C1CC1
+ACGTTAGA,BB3_011,Thiophene-2-amide,O=C(N)c1cccs1
+TGCAATGA,BB3_012,Indole-2-carboxamide,O=C(N)c1ccc2ccccc2[nH]1

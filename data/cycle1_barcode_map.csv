@@ -1,0 +1,11 @@
+tag_id,bb_id,bb_name,smiles
+AACTGCAG,BB1_001,Aminopyrimidine,Nc1ccncc1
+TTGCATCG,BB1_002,2-Aminopyridine,Nc1ccccn1
+GCTATAGC,BB1_003,4-Aminobenzimidazole,Nc1ccc2[nH]cnc2c1
+CGATCATC,BB1_004,Triazine-amine,Nc1nc(N)nc(N)n1
+TGATCAGC,BB1_005,Purine-6-amine,Nc1ncnc2[nH]cnc12
+GCAATCGC,BB1_006,Quinazolin-4-amine,Nc1ncnc2ccccc12
+ATCGGCTA,BB1_007,Pyrimidine-2-amine,Nc1ncccn1
+TAGCATGC,BB1_008,"Imidazo[1,2-a]pyridine",c1ccc2nccc2c1
+CGTAGCAT,BB1_009,Benzimidazol-2-amine,Nc1nc2ccccc2[nH]1
+GATCGTAG,BB1_010,Indazol-3-amine,Nc1n[nH]c2ccccc12

@@ -1,0 +1,39 @@
+name: Test Pipeline on Example Data
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up Python 3.10
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+
+    - name: Install dependencies
+      run: |
+        pip install --upgrade pip
+        pip install -r requirements.txt
+        pip install nbconvert jupyter
+
+    - name: Run notebook on example data
+      run: |
+        jupyter nbconvert --to notebook --execute \
+          --ExecutePreprocessor.timeout=600 \
+          DELkit_Analysis.ipynb \
+          --output DELkit_Analysis_tested.ipynb
+        echo "Notebook executed successfully"
+
+    - name: Check outputs exist
+      run: |
+        test -f outputs/hits.csv && echo "hits.csv OK"
+        test -f outputs/enrichment.csv && echo "enrichment.csv OK"
+        test -f figures/volcano.png && echo "volcano.png OK"
+        test -f figures/bb_enrichment.png && echo "bb_enrichment.png OK"

@@ -1,0 +1,2 @@
+library_id,description,n_cycles,cycle1_count,cycle2_count,cycle3_count,total_compounds,scaffold_smiles,linker,headpiece,closing_primer
+DEL-001,"3-cycle amide-coupled DEL, CDK9/kinase screen",3,10,12,12,1440,O=C(N1CCN(c2ncnc3[nH]cnc23)CC1)c1ccccc1,amide_coupling,5-carboxypentyl-DNA,AATTCGTATGCC
